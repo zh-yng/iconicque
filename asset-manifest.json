@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iconicque/static/css/main.0cf5cc65.css",
+    "main.js": "/iconicque/static/js/main.d0beeb3c.js",
+    "index.html": "/iconicque/index.html",
+    "main.0cf5cc65.css.map": "/iconicque/static/css/main.0cf5cc65.css.map",
+    "main.d0beeb3c.js.map": "/iconicque/static/js/main.d0beeb3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cf5cc65.css",
+    "static/js/main.d0beeb3c.js"
+  ]
+}
