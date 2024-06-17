@@ -5,25 +5,17 @@ import NotFound from './NotFound';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React from 'react';
 
-/*
-
-TO TEST:
-- Local Host: npm start
-- JSON Server: npx json-server --watch data/db.json --port 8000
-
-*/
-
 function App() {
 
     return (
-        <Router>
-            <div className="App router">
+        <Router basename="/iconicque">
+            <div className="App">
                 <Navbar />
-                <div className="content">
+                <div className="content router">
                     <Routes>
-                        <Route exact path="/" element={<Home />} />
-                        <Route exact path="/review/:id" element={<Review />} />
-                        <Route path="/*" element={<NotFound />} />
+                        <Route path="/" element={<Home />} />
+                        <Route path="/review/:id" element={<Review />} />
+                        <Route path="*" element={<NotFound />} />
                     </Routes>
                 </div>
             </div>

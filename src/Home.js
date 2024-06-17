@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-import Card from "./Card";
+// import Card from "./Card";
 
 const Home = () => {
     const [data, setData] = useState([]);
@@ -22,7 +22,7 @@ const Home = () => {
                     {(data.length > 0) && data.map((item, i) => (
                         <Link to={`/review/${i}`} key={i}>
                             <div className="card">
-                                <img src={item.image} />
+                                <img src={item.image} alt="" />
                                 <div className="card-details">
                                     <h2 className="gold">{item.title}</h2>
                                     <h4 className="beige">{item.artist}</h4>

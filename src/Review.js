@@ -16,7 +16,7 @@ const Review = () => {
             {!data.title && <h1>Loading...</h1>}
             {data.title && <div className="review">
                 <div className="review-banner section">
-                    <img src={data.image} />
+                    <img src={data.image} alt="" />
                     <div className="review-info">
                         <h1 className="gold">{data.title}</h1>
                         <h2>{data.artist}</h2>
