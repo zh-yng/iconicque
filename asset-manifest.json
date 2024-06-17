@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/iconicque/static/css/main.0cf5cc65.css",
-    "main.js": "/iconicque/static/js/main.5e01430d.js",
+    "main.js": "/iconicque/static/js/main.1df3dbf9.js",
     "index.html": "/iconicque/index.html",
     "main.0cf5cc65.css.map": "/iconicque/static/css/main.0cf5cc65.css.map",
-    "main.5e01430d.js.map": "/iconicque/static/js/main.5e01430d.js.map"
+    "main.1df3dbf9.js.map": "/iconicque/static/js/main.1df3dbf9.js.map"
   },
   "entrypoints": [
     "static/css/main.0cf5cc65.css",
-    "static/js/main.5e01430d.js"
+    "static/js/main.1df3dbf9.js"
   ]
 }
